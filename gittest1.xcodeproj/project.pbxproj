@@ -19,6 +19,7 @@
 		367A74DE16962C2800059BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367A74DD16962C2800059BCB /* ViewController.m */; };
 		367A74E116962C2800059BCB /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367A74DF16962C2800059BCB /* ViewController_iPhone.xib */; };
 		367A74E416962C2800059BCB /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367A74E216962C2800059BCB /* ViewController_iPad.xib */; };
+		367A752916962DFF00059BCB /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 367A752816962DFF00059BCB /* RequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		367A74DD16962C2800059BCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		367A74E016962C2800059BCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		367A74E316962C2800059BCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		367A752716962DFF00059BCB /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		367A752816962DFF00059BCB /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				367A74D416962C2800059BCB /* AppDelegate.m */,
 				367A74DC16962C2800059BCB /* ViewController.h */,
 				367A74DD16962C2800059BCB /* ViewController.m */,
+				367A752716962DFF00059BCB /* RequestManager.h */,
+				367A752816962DFF00059BCB /* RequestManager.m */,
 				367A74DF16962C2800059BCB /* ViewController_iPhone.xib */,
 				367A74E216962C2800059BCB /* ViewController_iPad.xib */,
 				367A74CB16962C2800059BCB /* Supporting Files */,
@@ -180,6 +185,7 @@
 				367A74D116962C2800059BCB /* main.m in Sources */,
 				367A74D516962C2800059BCB /* AppDelegate.m in Sources */,
 				367A74DE16962C2800059BCB /* ViewController.m in Sources */,
+				367A752916962DFF00059BCB /* RequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				367A74E916962C2800059BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
